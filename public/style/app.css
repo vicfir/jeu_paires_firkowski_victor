@@ -19,7 +19,6 @@ body {
 }
 
 .card {
-  transition: 1s;
   width: 30%;
   margin: 10px;
   position: relative;
@@ -28,12 +27,16 @@ body {
 .imgCard {
   transform: rotateY(180deg);
   width: 100%;
-  transition: 1s;
+  height: 100%;
+  transition: 0.2s;
   position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 
 .back img {
   width: 100%;
+  transition: 0.2s;
 }
 
 /*# sourceMappingURL=app.css.map */
